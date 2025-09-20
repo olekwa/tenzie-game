@@ -17,7 +17,7 @@ const gameWon = dice.every(die => die.isHeld) &&
       confetti({
         particleCount: 600,
         spread: 100,
-        origin: { y: 0.6 },
+        origin: { y: 0.3 },
     })
 
     setTimeout(() => {
