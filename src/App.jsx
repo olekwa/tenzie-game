@@ -79,7 +79,7 @@ const diceElements = dice.map(dieObj => (
       <div className="dice-container">
         {diceElements}
       </div>
-      <button onClick={rollDice} className="roll-dice">
+      <button ref={buttonRef} onClick={rollDice} className="roll-dice">
         {gameWon ? 'New Game' : 'Roll'}
       </button>
     </main>
